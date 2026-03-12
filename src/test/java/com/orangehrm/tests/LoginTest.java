@@ -25,10 +25,10 @@ public class LoginTest {
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();
 
-        driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+        driver.get("https://opensourc-demo.orangehrmlive.com/web/index.php/auth/login");
 
         loginPage = new LoginPage(driver);
-        System.out.println("hello, Login test started")
+        
         
     }
 
