@@ -28,7 +28,7 @@ public class LoginTest {
         driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 
         loginPage = new LoginPage(driver);
-        System.out.println("Login test started")
+        System.out.println("hello, Login test started")
         
     }
 
