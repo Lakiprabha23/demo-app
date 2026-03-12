@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name="Selenium TestNG Suite">
+<suite name="Selenium TestNG Suite" parallel="classes" thread-count="2">
   <test name="Smoke Tests">
     <classes>
       <class name="com.orangehrm.tests.LoginTest"/>

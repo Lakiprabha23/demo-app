@@ -1,0 +1,16 @@
+# Maven build folder
+target/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IntelliJ files
+.idea/
+*.iml
+
+# VS Code settings (optional)
+.vscode/
